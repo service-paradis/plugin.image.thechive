@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.image.thechive" name="The Chive" version="1.0.0" provider-name="Alexandre Paradis (service-paradis)">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.simplejson" version="2.0.10"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+		<provides>image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language/>
+		<summary lang="en">The Chive, photo-entertainment website</summary>
+		<description lang="en">theCHIVE, or theCHIVE.com, is a photo-entertainment website independently owned and operated by Resignation, LLC. Images appearing on theCHIVE.com are selected by staff from searches of both international and domestic websites as well as daily submissions.</description>
+		<platform>all</platform>
+		<license>MIT</license>
+		<source>https://github.com/service-paradis/plugin.image.thechive</source>
+        <website>https://github.com/service-paradis</website>
+        <email>service.paradis@gmail.com</email>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+	</extension>
+</addon>
